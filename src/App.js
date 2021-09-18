@@ -10,7 +10,8 @@ const App = () => {
   }, [])
   return <div className="component">
     <Card active={active} setActive={setActive} />
-    <button className="subscribe" onClick={() => setActive(true)}>Subscribe</button>
+
+    <button className={active ? "subscribe" : "subscribe active"} onClick={() => setActive(true)}>Subscribe</button>
   </div>;
 }
 
