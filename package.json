@@ -1,5 +1,5 @@
 {
-  "homepage": "https://devildoctor27.github.io/order-summary-component/",
+  "homepage": "https://devildoctor27.github.io/order-summary-component",
   "name": "order-summary",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
